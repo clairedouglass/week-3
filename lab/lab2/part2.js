@@ -11,20 +11,8 @@ Find two previous labs that use for loops. Rewrite these labs to use _.each.
 
 ===================== */
 
-/* =====================
-_.each (array, theFunction(list, count) {
-    if (list[count+1] % 15  === 0)
-    console.log("FizzBuzz");
-    else if (list[count+1] % 3 === 0)
-      console.log("Fizz");
-    else if (list[count+1] % 5 === 0)
-      console.log("Buzz");
-    else
-      console.log(list[count]);
-});
-===================== */
 
-//function 1
+//From Week 2: Lab 2 Part 1
 
 var theArray = ['A short story.', 42, 55, ['Another story'], 23, 12, 2, 4, 5, 6, 'bar', 'foo'];
 var yourSum = 0;
@@ -42,9 +30,7 @@ var sumArray = function(value){
 _.each(theArray, sumArray);
 console.log("Success: ", yourSum === 169);
 
-// Fizz Buzz
-//function 1
-
+// From Week 3: Lab 1 Part 1
 
 var countItem = function(array, num) {
   var counter = 0;
